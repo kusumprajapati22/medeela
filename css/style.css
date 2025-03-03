@@ -1909,7 +1909,7 @@ pre code {
   background-color: #fff;
   border-color: #ffa480;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(255, 72, 0, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(28, 97, 173, 0.25);
 }
 
 .form-control::placeholder {
@@ -2371,14 +2371,14 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #d93d00;
-  border-color: #cc3a00;
+  background-color: #63CBF7;
+  border-color: #63CBF7;
 }
 
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #d93d00;
-  border-color: #cc3a00;
+  background-color: #63CBF7;
+  border-color: #63CBF7;
   box-shadow: 0 0 0 0.2rem rgba(255, 99, 38, 0.5);
 }
 
@@ -2391,7 +2391,7 @@ fieldset:disabled a.btn {
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #cc3a00;
+  background-color: #63CBF7;
   border-color: #bf3600;
 }
 
@@ -4675,7 +4675,7 @@ a.badge:hover, a.badge:focus {
 
 a.badge-primary:hover, a.badge-primary:focus {
   color: #fff;
-  background-color: #cc3a00;
+  background-color: #63CBF7;
 }
 
 a.badge-primary:focus, a.badge-primary.focus {
@@ -6100,7 +6100,7 @@ a.close.disabled {
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #cc3a00 !important;
+  background-color: #63CBF7 !important;
 }
 
 .bg-secondary {
@@ -9591,7 +9591,7 @@ p,
 }
 
 .btn-play:hover:after {
-  background: #cc3a00;
+  background: #63CBF7;
 }
 
 .btn-play span {
