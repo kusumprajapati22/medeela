@@ -92,6 +92,7 @@
                         oils that meet global standards. Medeela Global Exim serves international markets, 
                         providing bulk supply, private labeling, and custom formulations to businesses worldwide.
                     </p>
+                   <a class="btn btn-primary d-inline-block py-3 px-5 me-2 flex-shrink-0 wow fadeInUp" data-wow-delay="0.1s" id="learnMoreBtn">Learn More</a>
                 </div>
             </div>
         </div>
@@ -231,7 +232,66 @@
         </div>
         <!-- Footer End -->
     
-    
+
+    <!-- Modal Start-->
+    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">About Us</h5>
+                    <span class="btn-close" aria-label="Close" id="closeModalBtn" style="cursor: pointer; font-size: 1.5rem;"></span>
+                </div>
+                <div class="modal-body">
+                    <img class="img-fluid mb-4" src="img/header.jpg" alt="">
+                    <p>
+                        Sol Max Solar is proudly recognized and approved by the Ministry of New and 
+                        Renewable Energy (MNRE), Government of India.At Sol Max Solution, our goal is to provide top-quality products and services to our 
+                        customers while continuously innovating in the renewable energy sector.
+                        We are committed to crafting world-class materials with zero defects, ensuring 
+                        excellence at every step.We are dedicated to maintaining the highest standards of quality and performance 
+                        for our products. Our quality experts accurately monitor every stage of product 
+                        development, from inception to final completion, ensuring excellence throughout the 
+                        process.
+                    </p>
+                    <p>
+                        Every aspect of quality assurance is prioritized to uphold and exceed the highest 
+                        industry standards.Sol Max Solution has been at the forefront of embracing advancements and 
+                        technology, consistently progressing without compromising on quality or afford 
+                        ability.Sol Max Solution, in solar energy solutions dedicated to empowering homes, 
+                        Businesses, and Industries with Sustainable, Reliable, and Cost-effective energy.
+                        Whether you're looking to reduce your carbon footprint, lower your energy bills, or 
+                        achieve energy independence, Sol Max Solution is committed to guiding you every 
+                        step of the way.
+                    </p>
+                    <h4><li>ENGINEERING AND DESIGN</li></h4>
+                    <p>
+                        Preparation of layout, single line diagrams, CAD's and basic 
+                        engineering drawing documents. Preparation of erection key 
+                        diagrams, electrical and physical clearance diagrams, design 
+                        calculations for Earth- mat, Bus Bar & Spacers, indoor and outdoor 
+                        lighting/illumination etc. Detailed engineering of all components, 
+                        protection system, switchyard, switchgear, cabling system, LV & DC 
+                        system. Preparation of all Site Execution Drawings/Documents related 
+                        to Electrical, Mechanical & Civil installation.
+                    </p>
+                    <h4><li>ENGINEERING AND CONSTRUCTION SUPERVISION</li></h4>
+                    <p>
+                        Planning, basic and detailed engineering of the entire system. 
+                        Preparation of the drawings and documents for the execution of the 
+                        project, proof checking vendor drawings and incorporating them in 
+                        the system for optimal yield. Approval of all interconnection systems 
+                        Scheduling and ensuring the timely completion of the project, 
+                        including detailed engineering, procurement, erection activities at site 
+                        pre-commissioning and commissioning activities. Review, supervision 
+                        and responsibility of work at site during the course of project 
+                        execution.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal End-->
+
         <!-- Back to Top -->
         <a href="#" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
     
@@ -250,6 +310,22 @@
     
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
+
+     <script>
+            // JavaScript to open the modal on button click
+            document.getElementById('learnMoreBtn').addEventListener('click', function () {
+                var myModal = new bootstrap.Modal(document.getElementById('exampleModalLong'));
+                myModal.show();
+            });
+        
+            // JavaScript to handle closing the modal with the span
+            document.getElementById('closeModalBtn').addEventListener('click', function () {
+                // This will close the modal
+                var myModal = bootstrap.Modal.getInstance(document.getElementById('exampleModalLong'));
+                myModal.hide();
+            });
+        </script>
+    
     </body>
     
     </html>
